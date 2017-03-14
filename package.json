@@ -1,0 +1,29 @@
+{
+  "name": "goodday",
+  "version": "1.0.0",
+  "description": "这是一个开源的电影网站。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d7d7zd/goodday.git"
+  },
+  "author": "d7d7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d7d7zd/goodday/issues"
+  },
+  "homepage": "https://github.com/d7d7zd/goodday#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "hbs": "^4.0.1",
+    "jquery": "^3.1.1",
+    "morgan": "^1.8.1",
+    "mysql": "^2.13.0"
+  }
+}
