@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>好时光电影网</title>
+
+    <style>
+        #a1{
+            width: 1000px;
+            margin: 0, auto;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="a1" ></div>
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript">
+	var flashvars={
+		f:'http://img.ksbbs.com/asset/Mon_1605/0ec8cc80112a2d6.mp4',
+		c:0,
+		b:1,
+		i:'http://www.ckplayer.com/static/images/cqdw.jpg'
+		};
+	var video=['http://img.ksbbs.com/asset/Mon_1605/0ec8cc80112a2d6.mp4->video/mp4'];
+	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',false,flashvars,video)	
+	function closelights(){//关灯
+		alert(' 本演示不支持开关灯');
+	}
+	function openlights(){//开灯
+		alert(' 本演示不支持开关灯');
+	}
+</script>
+
+</body>
+</html>
